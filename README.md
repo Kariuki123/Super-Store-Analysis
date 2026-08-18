@@ -112,6 +112,8 @@ Provides executives with a high-level overview of business performance and allow
 
 This dashboard focuses on profitability analysis and customer performance evaluation.
 
+<img width="697" height="341" alt="image" src="https://github.com/user-attachments/assets/2f7a718e-cdde-4db7-8458-288464a38f56" />
+
 ### Key Visuals
 
 - Total Profit KPI
