@@ -3,6 +3,7 @@
 <img src="Images/Executivend-to-end Business Intelligence solution built in Power BI to analyze retail sales performance, profitability, customer behavior, and regional trends across a Super Store business.
 
 This project transforms transactional sales data into actionable insights through interactive dashboards, KPI monitoring, profitability analysis, and customer intelligence reporting, enabling stakeholders to make data-driven decisions.
+<img width="603" height="154" alt="image" src="https://github.com/user-attachments/assets/06628335-d153-4fac-b03d-0147370d8867" />
 
 ---
 
