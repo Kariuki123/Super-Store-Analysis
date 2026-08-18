@@ -30,7 +30,7 @@ The objective of this project was to develop an interactive Power BI dashboard c
 - Which products generate the highest sales?
 - Which categories contribute the most revenue?
 - How do sales trends change over time?
-
+![Executive Dashboard](https://raw.githubusercontent.com/Kariuki123/Super-Store-Analysis/main![Insights Dashboard](https://raw.githubusercontent.com/Kariukiis/main/Images/Insights.png
 ### Profitability Analysis
 - Which products deliver the highest profits?
 - What is the company's overall profit margin?
