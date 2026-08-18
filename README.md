@@ -276,7 +276,7 @@ Super-Store-Analysis/
 
 ### John Kariuki
 
-**Audit Assistant | Data Analyst | Power BI Developer**
+**| Data Analyst | Power BI Developer**
 
 📍 Nairobi, Kenya
 
