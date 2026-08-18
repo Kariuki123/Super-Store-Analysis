@@ -1,6 +1,6 @@
 # 📊 Super Store Analysis | Sales & Profit Intelligence Dashboard
 
-<img src="Images/Executivend-to-end Business Intelligence solution built in Power BI to analyze retail sales performance, profitability, customer behavior, and regional trends across a Super Store business.
+An end-to-end Business Intelligence solution built in Power BI to analyze retail sales performance, profitability, customer behavior, and regional trends across a Super Store business.
 
 This project transforms transactional sales data into actionable insights through interactive dashboards, KPI monitoring, profitability analysis, and customer intelligence reporting, enabling stakeholders to make data-driven decisions.
 
@@ -88,7 +88,8 @@ Additional metrics tracked:
 ## Executive & Sales Overview
 
 This dashboard provides a comprehensive summary of overall business performance through KPI monitoring and sales analysis.
-Images/Executive.png
+
+<img width="689" height="338" alt="image" src="https://github.com/user-attachments/assets/0285e0ff-e68c-4287-bb52-6c29efeff0b0" />
 
 ### Key Visuals
 
