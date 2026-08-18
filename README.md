@@ -1,24 +1,8 @@
 # 📊 Super Store Analysis | Sales & Profit Intelligence Dashboard
 
-An end-to-end Business Intelligence solution built in Power BI to analyze retail sales performance, profitability, customer behavior, and regional trends across a Super Store business.
+<img src="Images/Executivend-to-end Business Intelligence solution built in Power BI to analyze retail sales performance, profitability, customer behavior, and regional trends across a Super Store business.
 
 This project transforms transactional sales data into actionable insights through interactive dashboards, KPI monitoring, profitability analysis, and customer intelligence reporting, enabling stakeholders to make data-driven decisions.
-
----
-
-## 📸 Dashboard Preview
-
-### Executive & Sales Overview
-
-Images/Executive.png
-
-The Executive Dashboard provides a high-level overview of business performance through sales KPIs, category analysis, regional performance, and product-level sales tracking.
-
-### Profitability & Customer Insights
-
-Images/Insights.png
-
-The Insights Dashboard focuses on profitability drivers, customer contribution analysis, profit margin performance, and segment-level business insights.
 
 ---
 
@@ -26,39 +10,40 @@ The Insights Dashboard focuses on profitability drivers, customer contribution a
 
 - Project Overview & Business Problem
 - Business Objectives
-- Data Modeling
-- Dashboard Features
 - Key Performance Indicators
+- Dashboard Overview
 - Key Business Insights
 - Strategic Recommendations
 - Tools & Technologies
+- Dashboard Preview
 - Repository Structure
 
 ---
 
 # 🏢 Project Overview & Business Problem
 
-Retail organizations generate large volumes of sales and customer data every day. However, identifying the factors driving revenue growth, profitability, and customer performance can be challenging without a centralized analytics platform.
+Retail businesses generate large volumes of sales and customer data. However, converting this information into meaningful business insights can be challenging without a centralized reporting solution.
 
-This project was developed to help decision-makers answer critical business questions regarding:
+The objective of this project was to develop an interactive Power BI dashboard capable of answering critical business questions related to:
 
 ### Sales Performance
-- Which categories generate the most revenue?
-- Which products drive overall sales performance?
-- How do sales trends change throughout the year?
+- Which products generate the highest sales?
+- Which categories contribute the most revenue?
+- How do sales trends change over time?
 
 ### Profitability Analysis
-- Which products create the greatest profit?
+- Which products deliver the highest profits?
 - What is the company's overall profit margin?
-- Which customer segments contribute most to profitability?
-
-### Regional Performance
-- Which regions generate the highest sales?
-- Where are expansion opportunities available?
+- Which categories are most profitable?
 
 ### Customer Analytics
 - Who are the most valuable customers?
-- Which customer segments contribute the largest share of profit?
+- Which customer segments drive profitability?
+- How much revenue does each segment contribute?
+
+### Regional Performance
+- Which regions and states perform best?
+- Where are growth opportunities available?
 
 ---
 
@@ -66,212 +51,203 @@ This project was developed to help decision-makers answer critical business ques
 
 The dashboard was designed to:
 
-- Monitor overall sales and profitability performance.
-- Track monthly business growth.
-- Identify best-performing products and categories.
-- Analyze regional sales distribution.
-- Evaluate customer profitability.
-- Support strategic decision-making through interactive reporting.
+- Monitor sales and profitability performance.
+- Track monthly business growth trends.
+- Identify top-performing products and categories.
+- Analyze customer contribution.
+- Evaluate regional performance.
+- Support strategic decision-making using interactive analytics.
 
 ---
 
 # 📈 Key Performance Indicators (KPIs)
 
-The Executive Dashboard tracks the following key metrics:
-
-| KPI | Value |
-|-------|---------|
+| Metric | Value |
+|----------|---------|
 | Total Sales | $2.29M |
-| Total Profit | $286.8K |
+| Total Profit | $286.82K |
 | Total Orders | 5,009 |
 | Profit Margin | 12.49% |
+| Total Customers | 793 |
+| Average Sales per Customer | $3K |
 
-Additional metrics analyzed include:
+Additional metrics tracked:
 
+- Monthly Sales Performance
+- Monthly Profit Trends
 - Sales by Category
 - Sales by Region
-- Monthly Sales Trends
-- Customer Profitability
 - Profit by Segment
 - Top Products by Sales
 - Top Sub-Categories by Profit
 
 ---
 
-# 🗄️ Data Modeling
+# 📊 Dashboard Overview
 
-The data model follows a Star Schema approach to improve performance and reporting efficiency.
+## Executive & Sales Overview
 
-### Fact Table
+This dashboard provides a comprehensive summary of overall business performance through KPI monitoring and sales analysis.
 
-#### Fact_Sales
-Contains transactional order data including:
+### Key Visuals
 
-- Order ID
-- Order Date
-- Customer
-- Product
-- Sales
-- Quantity
-- Discount
-- Profit
-
-### Dimension Tables
-
-#### Dim_Product
-- Product Name
-- Category
-- Sub-Category
-
-#### Dim_Customer
-- Customer Name
-- Segment
-- Region
-
-#### Dim_Date
-- Year
-- Month
-- Quarter
-
-#### Dim_Geography
-- Region
-- State
-
----
-
-# 📊 Dashboard Features
-
-## Page 1: Executive & Sales Overview
-
-The Executive Dashboard provides a comprehensive summary of company performance.
-
-### Key Highlights
-
-✅ Total Sales of **$2.29M**
-
-✅ Total Profit of **$286.8K**
-
-✅ Profit Margin of **12.49%**
-
-✅ Total Orders of **5,009**
-
-### Analyses Included
-
-- Monthly Sales Trend
+- Total Sales KPI
+- Total Profit KPI
+- Profit Margin KPI
+- Total Orders KPI
+- Monthly Sales Trends
 - Sales by Category
 - Sales by Region
 - Top 5 Products by Sales
-- Interactive Filters by:
-  - Year
-  - Region
-  - Category
-  - Product
+
+### Business Value
+
+Provides executives with a high-level overview of business performance and allows quick identification of revenue drivers and growth opportunities.
 
 ---
 
-## Page 2: Profitability & Customer Insights
+## Profitability & Customer Insights
 
-This dashboard focuses on understanding profit drivers and customer contribution.
+This dashboard focuses on profitability analysis and customer performance evaluation.
 
-### Key Highlights
+### Key Visuals
+
+- Total Profit KPI
+- Profit Margin KPI
+- Total Customer KPI
+- Sales per Customer KPI
+- Monthly Sales vs Profit Analysis
+- Top 5 Sub-Categories by Profit
+- Profit by Customer
+- Profit by Segment
+
+### Business Value
+
+Helps stakeholders understand profitability drivers, customer contribution, and opportunities to improve margins.
+
+---
+
+# 📸 Dashboard Preview
+
+## Executive & Sales Overview
+
+Images/Executive.png
+
+### Highlights
+
+✅ Total Sales of **$2.29M**
 
 ✅ Total Profit of **$286.82K**
 
 ✅ Profit Margin of **12.49%**
 
-✅ Total Customers of **793**
+✅ Total Orders of **5,009**
+
+### Key Findings
+
+- Technology is the highest-performing category by sales.
+- The West region generates the highest revenue.
+- Sales demonstrate strong year-end growth.
+- A small number of products contribute significantly to total sales.
+
+---
+
+## Profitability & Customer Insights
+
+Images/Insights.png
+
+### Highlights
+
+✅ Total Profit of **$286.82K**
+
+✅ Profit Margin of **12.49%**
+
+✅ 793 Total Customers
 
 ✅ Average Sales per Customer of approximately **$3K**
 
-### Analyses Included
+### Key Findings
 
-- Monthly Sales vs Profit Trend
-- Top 5 Sub-Categories by Profit
-- Profit by Customer
-- Profit Distribution by Segment
-- Interactive Filtering
-- Customer Performance Analysis
+- Copiers generate the highest profits among all sub-categories.
+- Consumer customers contribute the largest share of profit.
+- Phones and Accessories are major profit contributors.
+- A small group of customers generates significant profit value.
 
 ---
 
 # 💡 Key Business Insights
 
-## Technology Leads Sales Performance
+## Technology Drives Revenue
 
-Technology is the highest revenue-generating category, outperforming Furniture and Office Supplies.
+Technology is the strongest sales-performing category, outperforming Furniture and Office Supplies.
 
-### Implication
-Increased focus on technology inventory and marketing campaigns can drive additional revenue growth.
-
----
-
-## Western Region Drives Revenue
-
-The West region contributes the highest sales volume, followed closely by the East region.
-
-### Implication
-These regions represent the strongest markets and may offer the greatest opportunity for expansion.
+**Implication:** Continued investment in technology products can support sustainable revenue growth.
 
 ---
 
-## Copier Products Generate Strong Profitability
+## Profitability is Concentrated in Specific Products
 
-Copiers are the most profitable sub-category, followed by Phones and Accessories.
+Copiers, Phones, and Accessories generate the highest profits across the business.
 
-### Implication
-Management should prioritize high-margin product categories when planning inventory investments.
-
----
-
-## Consumer Segment Dominates Profit Contribution
-
-The Consumer segment contributes approximately 46.76% of total profit, making it the largest customer segment by profitability.
-
-### Implication
-Customer retention and loyalty programs should primarily target consumer customers.
+**Implication:** Inventory and marketing strategies should prioritize high-margin products.
 
 ---
 
-## Sales Peak Towards Year-End
+## Consumer Customers Contribute the Largest Share of Profit
 
-Monthly sales performance increases significantly during the final quarter of the year, especially in November and December.
+Consumer customers account for approximately 46.76% of total profit contribution.
 
-### Implication
-Seasonal inventory planning and promotional campaigns should be aligned with year-end demand.
+**Implication:** Loyalty and retention programs should primarily focus on consumer customers.
+
+---
+
+## Strong Performance in Western Markets
+
+The West region remains the leading contributor to overall sales.
+
+**Implication:** Additional expansion initiatives in high-performing regions could accelerate growth.
+
+---
+
+## Year-End Demand Surges
+
+Sales increase significantly during the final months of the year, particularly in Q4.
+
+**Implication:** Inventory planning and promotional campaigns should align with seasonal demand patterns.
 
 ---
 
 # 🎯 Strategic Recommendations
 
-### Increase Investment in High-Profit Categories
+### Increase Investment in High-Margin Products
 
-Prioritize Copiers, Phones, and Accessories due to their strong profit contribution.
+Prioritize product categories such as Copiers, Phones, and Accessories due to their superior profitability.
 
-### Expand Presence in High-Performing Regions
+### Expand High-Performing Markets
 
-Focus growth initiatives within the West and East regions while identifying opportunities to improve performance in lower-performing markets.
+Leverage success in the West region while developing growth strategies for underperforming regions.
 
-### Improve Profitability Monitoring
+### Optimize Discounting Strategy
 
-Track products that generate strong sales but lower profit margins to optimize pricing and discount strategies.
+Monitor products with high sales but low profit margins to improve overall profitability.
 
-### Strengthen Customer Loyalty Programs
+### Strengthen Customer Retention
 
-Develop targeted marketing campaigns for Consumer and Corporate customers to increase retention and lifetime value.
+Develop customer loyalty initiatives targeting high-value consumer and corporate customers.
 
-### Leverage Forecasting Models
+### Implement Forecasting Models
 
-Introduce predictive analytics to improve sales forecasting, inventory planning, and resource allocation.
+Introduce predictive analytics to support sales forecasting, demand planning, and inventory optimization.
 
 ---
 
 # 🛠️ Tools & Technologies
 
 | Tool | Purpose |
-|--------|----------|
+|----------|----------|
 | Power BI Desktop | Dashboard Development |
 | Power Query | Data Cleaning & Transformation |
-| DAX | Business Calculations & KPIs |
+| DAX | KPI and Measure Development |
 | Excel / CSV | Data Source |
 | GitHub | Version Control & Documentation |
 
@@ -298,9 +274,9 @@ Super-Store-Analysis/
 
 # 👨‍💻 Author
 
-## John Kariuki
+### John Kariuki
 
-** | Data Analyst | Power BI Developer**
+**Audit Assistant | Data Analyst | Power BI Developer**
 
 📍 Nairobi, Kenya
 
@@ -310,4 +286,4 @@ GitHub: https://github.com/Kariuki123
 
 ## ⭐ Project Goal
 
-The objective of this project is to transform retail transaction data into meaningful business intelligence that supports strategic decision-making, improves profitability, identifies growth opportunities, and delivers actionable insights through interactive Power BI dashboards.
+The goal of this project is to transform retail sales data into meaningful business intelligence that enables stakeholders to make informed decisions, improve profitability, optimize operations, and identify growth opportunities through interactive Power BI dashboards.
